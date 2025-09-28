@@ -1,8 +1,8 @@
-# Task - 04 - Aggregate Queries (GROUP BY, SUM, COUNT, AVG, HAVING)
+# Task - 04 - Aggregate Queries (GROUP BY, SUM, COUNT, AVG)
 
 ## Overview
 This task focuses on writing and executing **aggregate queries** in MySQL.  
-It demonstrates how to summarize data using aggregate functions, group records, and filter grouped results with `HAVING`.
+It demonstrates how to summarize data using aggregate functions, group records, and filter grouped results.
 
 ## Tools Used
 - MySQL Workbench  
