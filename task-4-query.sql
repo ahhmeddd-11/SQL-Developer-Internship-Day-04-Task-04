@@ -1,0 +1,12 @@
+-- total sales amount
+select sum(quantityordered * priceeach) as total_sales from orderdetails;
+
+-- count of customers
+select count(*) as total_customers from customers;
+
+-- average price of all products
+select avg(buyprice) as average_buy_price from products;
+
+-- count the orders in status
+select status, count(*) as total_orders from orders
+group by status;
